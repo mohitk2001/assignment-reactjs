@@ -1,0 +1,131 @@
+.about{
+    width: 100%;
+   
+    background-color: #ffd7ad;
+    padding: 1px;
+}
+.about_container{
+    display: flex;
+    justify-content: space-around;
+}
+.about_left_container{
+    width: 35%;
+    margin-top: 10vh;
+    margin-bottom: 10vh;
+}
+.about_left_container>img{
+    width: 80%;
+   
+}
+.about_right_container{
+    width: 58%;
+   
+    color: #4A1831;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+}
+
+.about_right_container>h1{
+    font-size: 3vw;
+    font-weight: 700;
+}
+.about_right_container>p{
+    font-size: 1.5vw;
+    margin-top: 3vh;
+    font-weight: 500;
+}
+
+.about_right_container>button{
+    background-color: #4A1831;
+    color: #ffd7ad;
+    font-size: 1.5vw;
+    border-radius: 10vw;
+    width: 15vw;
+    height: 10vh;
+    font-weight: 700;
+    margin-top: 3vh;
+}
+
+.about_tacos_banner{
+    width: 100%;
+    height: 70vh; 
+    text-align: center;
+   
+}
+.about_tacos_banner>img{
+    object-fit: contain;
+    height: 100%;
+    width: 100%;
+}
+/* Responsive design for Tablet */
+@media screen and (max-width: 769px) {
+   
+    .about_container{
+       flex-direction: column;
+        justify-content: center;
+        align-items: center;
+        margin-top: unset;
+        margin-bottom: unset;
+    }
+    .about_left_container>img{
+        width: 100%;
+       
+    }
+    .about_right_container{
+        width: 100%;
+        padding: 2vw;
+        color: #4A1831;
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+        justify-content: center;
+    }
+    
+    .about_right_container>h1{
+        font-size: 6vh;
+        font-weight: 700;
+    }
+    .about_right_container>p{
+        font-size: 2.5vw;
+        margin-top: 3vh;
+        font-weight: 500;
+    }
+    .about_right_container>button{
+        font-size: 2.5vw;
+        width: 20vw;
+        
+        margin-top: 3vh;
+    }
+}
+/* For Mobile Phone */
+
+
+@media screen and (max-width: 426px){
+    
+    .about_left_container>img{
+        object-fit: contain;
+       width: 50vw;
+       height: 50vh;
+    }
+    .about_right_container{
+        font-size: 6vh;
+    }
+    .about_right_container>p{
+        font-size: 3vh;
+        margin-top: 2vh;
+        font-weight: 500;
+    }
+    .about_right_container>button{
+        font-size: 2vh;
+        width: 20vw;
+        
+        margin-top: 3vh;
+    }
+
+    .about_tacos_banner>img{
+        object-fit: contain;
+       
+    }
+}

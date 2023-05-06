@@ -1,0 +1,114 @@
+.latestoffer {
+  width: 100%;
+  background-color: #ffd7ad;
+
+  padding: 1px;
+  color: #4a1831;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+}
+
+.latestoffer > h1 {
+  margin-top: 15vh;
+  font-size: 3vw;
+  font-weight: 700;
+}
+.latestoffer > p {
+  margin-top: 2vh;
+  font-size: 1.5vw;
+  font-weight: 500;
+  text-align: center;
+}
+.inputfield_latestOffer {
+  display: flex;
+  margin-top: 6vh;
+  width: 60%;
+  margin-bottom: 6vh;
+}
+.inputfield_latestOffer > input {
+  background-color: #ffff;
+  outline: none;
+  border: none;
+  padding: 10px;
+  width: 80%;
+  border-radius: 10vw;
+  font-size: 1.5vw;
+  padding-left: 25px;
+  color: #4a1831;
+}
+.inputfield_latestOffer > button {
+  background-color: #4a1831;
+  color: #ffd7ad;
+  font-size: 1.5vw;
+  border-radius: 10vw;
+  width: 20%;
+  height: 10vh;
+}
+
+/* Responsive design for Tablet */
+@media screen and (max-width: 769px) {
+  .latestoffer > h1 {
+    margin-top: 5vh;
+    font-size: 6vw;
+    font-weight: 700;
+  }
+  .latestoffer > p {
+    margin-top: 2vh;
+    font-size: 3vw;
+    font-weight: 500;
+  }
+
+  .inputfield_latestOffer {
+    display: flex;
+    margin-top: 2vh;
+    width: 100%;
+    margin-bottom: 10vh;
+  }
+  .inputfield_latestOffer > input {
+    padding: 10px;
+
+    font-size: 3vw;
+    padding-left: 10px;
+  }
+  .inputfield_latestOffer > button {
+    font-size: 3vw;
+    border-radius: 10vw;
+    width: 20%;
+    height: 10vh;
+  }
+}
+
+/* Responsive design for Mobile phones  */
+@media screen and (max-width: 426px) {
+    .latestoffer > h1 {
+        margin-top: 5vh;
+        font-size: 6vw;
+        font-weight: 700;
+      }
+      .latestoffer > p {
+        margin-top: 1vh;
+        font-size: 4vw;
+        font-weight: 500;
+      }
+    
+      .inputfield_latestOffer {
+        display: flex;
+        margin-top: 5vh;
+        width: 100%;
+        margin-bottom: 5vh;
+      }
+      .inputfield_latestOffer > input {
+        padding: 6px;
+    
+        font-size: 3vw;
+        padding-left: 6px;
+      }
+      .inputfield_latestOffer > button {
+        font-size: 3vw;
+        border-radius: 10vw;
+        width: 20%;
+        height: 10vh;
+      }
+}

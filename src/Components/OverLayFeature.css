@@ -1,0 +1,75 @@
+.OverLayFeature{
+    width: 100%;
+    position: relative;
+    background-size: cover;
+    height: 100vh;
+    background-position: center;
+    background-image:url("../Assets/Images/overlay_effect.png");
+    padding:1px;
+    
+}
+
+.OverLay_content{
+    position: absolute;
+    height: 100%;
+    width: 100%;
+    top: 0;
+    left: 0;
+    background: rgba(10, 7, 10, 0.65);
+    color: white;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-direction: column;
+    color:#ffd7ad
+}
+
+.OverLay_content>img{
+    object-fit: contain;
+    height: 30vh;
+    width: 30vw;
+}
+
+.OverLay_content>p{
+    font-size: 1.6vw;
+    font-weight: 700;
+    text-align: center;
+    margin-top: 5vh;
+   
+}
+.OverLay_content>span{
+    font-size: 1.6vw;
+    font-weight: 700;
+    text-align: center;
+}
+
+
+/* Responsive design for Tablet */
+@media screen and (max-width: 769px){
+    .OverLay_content>p{
+        font-size: 3vw;
+       
+        margin-top: 5vh;
+       
+    }
+    .OverLay_content>span{
+        font-size: 3vw;
+        font-weight: 700;
+        text-align: center;
+    }
+}
+
+/* Responsive design for Mobile phones  */
+@media screen and (max-width: 769px){
+    .OverLay_content>p{
+        font-size: 3.4vw;
+       
+        margin-top: 5vh;
+       
+    }
+    .OverLay_content>span{
+        font-size: 3.5vw;
+        font-weight: 700;
+        text-align: center;
+    }
+}
